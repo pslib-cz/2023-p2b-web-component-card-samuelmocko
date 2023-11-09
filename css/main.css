@@ -1,0 +1,54 @@
+.icon{
+    font-family: icomoon;
+    font-size: 1.1em;
+}
+body{
+    background-image: url(/img/bg.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.red{
+    color: red;
+}
+.card{
+    border: 1px;
+    box-shadow: 0 0 1em 0.25em grey;
+    min-width: 15em;
+    max-width: 20em;
+    background-color: white;
+    padding: 1em;
+    margin-top: 5em;
+    margin-left: 1.2em;
+    margin-bottom: 1em;
+
+}
+.card__header--img{
+    width: 10em;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10em;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: 30% top;
+    border: 3px solid;
+    border-color: white;
+    box-shadow: 0 0 .05em 0.05em grey;
+    margin-top: -5em;
+}
+h2{
+    font-size: 1.15em;
+    font-weight: 1000;
+}
+.card__header{
+    border-bottom: 2px solid;
+}
+.zamestnanci{
+    display: flex;
+    overflow: scroll;
+    width: auto;
+    flex-wrap: wrap;
+}
+.card__content{
+    font-size: 1.05em;
+}
